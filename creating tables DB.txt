@@ -1,0 +1,39 @@
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+
+_____________________________________________________________
+
+
+mysql -h localhost -u root -p
+
+_____________________________________________________________
+
+
+create database cadastro;               
+use cadastro;                            
+create table pessoas (
+Id int primary key not null auto_increment,
+Nome varchar(100) not null,
+Email varchar(100) not null,
+Telefone varchar(14) not null,
+Celular varchar(14)
+);
+
+
+
+______________________________________________________________
+
+describe pessoas;              
+
+
+______________________________________________________________
+
+
+select * from pessoas;               
+
+
+__________________________________________________________________
+
+
+
+
